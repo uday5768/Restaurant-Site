@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;600&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>       
+    </head>
+<body>
+    <section class="header">
+        <nav>
+            <!-- <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fas fa-bars"></i>
+            </label> -->
+            <div id="nav-links" id="menu">
+                <!-- <i class="fa fa-times" onclick="hidemenu()"></i> -->
+                <ul>
+                    <!-- <i class="fa fa-cutlery" aria-hidden="true"></i>
+                    <link rel="icon" type="image/x-icon" href="logo.png"> -->
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown"><a href="MenuCard.html">Menu</a><div class="dropdown-content">
+                                                                            <a href="#heading2">Dishes</a>
+                                                                            <a href="#h2">Drinks</a>
+                                                                            <a href="#heading3">Desserts</a>
+                                                                     </div>
+                    </li>
+                    <li><a href="">Book a table</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>  
+            </div>
+            <!-- <i class="fa fa-bars" onclick="showmenu()"></i> -->
+        </nav>
+        <div class="heading">
+            <h1>Daily-cious</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos voluptatibus corrupti totam sunt minus quo, 
+                quibusdam numquam eveniet laudantium possimus dignissimos consequatur nostrum nam aliquam minima voluptatem
+                vel fugit neque!</p>
+            <a href="" class="btn">Know more</a>
+            <br>
+            <a href="MenuCard.html" class="btn">View Menu</a>
+        </div>
+    </section>
+    <section class="items1">
+        <h1 id="heading2">Our Dishes & Drinks</h1>
+        <div class="Dishes">
+            <div>
+                <div class="divs1" id="div1"></div>
+                <div id="price"><h4>Fish : ₹120</h4></div>
+            </div>
+            <div>
+                <div class="divs1" id="div2"></div>
+                <div id="price"><h4>Noodles : ₹100</h4></div>
+            </div>
+            <div>
+                <div class="divs1" id="div3"></div>
+                <div id="price"><h4>Paneer fry : ₹150</h4></div>
+            </div>
+            <div>
+                <div class="divs1" id="div4"></div>
+                <div id="price"><h4>Mixed protein : ₹150</h4></div>
+            </div>
+            <div>
+                <div class="divs1" id="div5"></div>
+                <div id="price"><h4>Paneer Pizza : ₹200</h4></div>
+            </div>
+            <div>
+                <div class="divs1" id="div6"></div>
+                <div id="price"><h4>Boiled Egg : ₹90</h4></div>
+            </div>
+        </div>
+    </section>
+    <section class="items2" >
+        <div class="Drinks">
+            <div id="h2">
+                <div class="divs2" id="div1"></div>
+                <div id="price"><h4>Pappaya Juice : ₹60</h4></div>
+            </div>
+            <div>
+                <div class="divs2" id="div2"></div>
+                <div id="price"><h4> Apple Juice : ₹90</h4></div>
+            </div>
+            <div>
+                <div class="divs2" id="div3"></div>
+                <div id="price"><h4>Pomgranate Juice : ₹80</h4></div>
+            </div>
+            <div>
+                <div class="divs2" id="div4"></div>
+                <div id="price"><h4>Lemon water : ₹60</h4></div>
+            </div>
+            <div>
+                <div class="divs2" id="div5"></div>
+                <div id="price"><h4>Mosambi : ₹70</h4></div>
+            </div>
+            <div>
+                <div class="divs2" id="div6"></div>
+                <div id="price"><h4>Lemon Soda : ₹60</h4></div>
+            </div>
+        </div> 
+    </section>
+    <section class="items3">
+        <h1 id="heading3">Our Desserts</h1>
+        <div class="Desserts">
+            <div>
+                <div class="divs3" id="div1"></div>
+                <div id="price"><h4>Bumpy Cake : ₹40</h4></div>
+            </div>
+            <div>
+                <div class="divs3" id="div2"></div>
+                <div id="price"><h4>Derby Roll : ₹50</h4></div>
+            </div>
+            <div>
+                <div class="divs3" id="div3"></div>
+                <div id="price"><h4>Apple pie : ₹40</h4></div>
+            </div>
+            <div>
+                <div class="divs3" id="div4"></div>
+                <div id="price"><h4>Custard : ₹30</h4></div>
+            </div>
+            <div>
+                <div class="divs3" id="div5"></div>
+                <div id="price"><h4>Ambrosia : ₹40</h4></div>
+            </div>
+            <div>
+                <div class="divs3" id="div6"></div>
+                <div id="price"><h4>Cherry Pie : ₹30</h4></div>
+            </div>
+        </div>  
+    </section>
+    <footer id="contact">
+        <h4>Reach Us at <a href="mailto:itsdailycious@gmail.com"><i>itsdailycious@gmail.com</i></a></h4>
+        <h4>Toll Free number : <a href="tel:123-456-7890">123-456-7890</a></h4>
+        <p>© All Rights reserved<p>
+    </footer>
+    <!-- <script>
+        var menu=document.getElementById("menu");
+        function showmenu(){
+            menu.style.right="0";
+        }
+        function hidemenu(){
+            menu.style.right="-200px";
+        }
+    </script> -->
+</body>
+</html>
+

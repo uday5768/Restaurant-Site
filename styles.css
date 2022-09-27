@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(1, 4, 36, 0.7),rgba(2, 10, 44, 0.7)),url(FoodOrderBG.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-links{
+    flex:1; 
+    text-align: right;
+}
+#nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0.8rem 1.2rem;
+    position: relative;
+}
+#nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+#nav-links ul li:hover{
+    background-color: #f44336;
+    border-radius: 1.5rem;
+}
+.heading{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.heading h1{
+    font-size: 6rem;
+}
+.heading p{
+    margin: 1rem 0 4rem;
+    font-size: 1.6rem;
+}
+.btn{
+    display: inline-block;
+    width: 12rem;
+    padding : 0.5rem;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: white;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    background: transparent;
+}
+.btn:hover{
+    border:0.1rem solid #f44336;
+    background-color: #f44336;
+}
+nav .fa{
+    display: none;
+}
+.dropdown-content {  
+    position: absolute; 
+    margin-top: 1rem; 
+    text-align: center;
+    background-color: lightgrey;  
+    min-width: 10rem;  
+    display: none; 
+    border-radius: 1rem; 
+}  
+.dropdown-content a {  
+    color: black;  
+    padding: 1rem 1rem;  
+    text-decoration: none;  
+    display: block; 
+}  
+.dropdown-content a:hover {  
+    background-color: #f44336;  
+}  
+.dropdown:hover .dropdown-content {  
+    display: block;  
+}   
+#heading2,#heading3{
+    text-align: center;
+    font-size: 4rem;
+}
+.Dishes,.Drinks,.Desserts{
+    display: grid;
+    grid-template-areas: "div1 div2 div3"
+                         "div4 div5 div6";
+    grid-gap: 5rem;
+    padding: 3rem 3rem;
+}
+.divs1,.divs2,.divs3{
+    height: 25rem;
+    border: 0.05rem;
+    border-radius: 2rem;
+    background-color: transparent;
+}
+.items1,.items2,.items3{
+    height: 92rem;
+    width: 100%;
+    background-size: cover;
+}
+.items1{
+    background-image: url("coffeebg21.jpg");
+}
+.items2{
+    background-image: url("coffeebg22.jpg");
+}
+.items3{
+    height: 80rem;
+    background-image: url("dessertbg.jpg");
+}
+#price{
+    text-align: center;
+    font-size: medium;
+    background-color: white;
+    border-radius: 5rem;
+    margin-top: 0.5rem;   
+}
+.divs1#div1{
+    background-image: url("dish1.jpg");
+    background-size: 40rem 30rem;
+}
+.divs1#div2{
+    background-image: url("dish2.jpg");
+    background-size: 40rem 30rem;
+}
+.divs1#div3{
+    background-image: url("dish3.jpg");
+    background-size: 40rem 30rem;
+}
+.divs1#div4{
+    background-image: url("dish4.jpg");
+    background-size: 40rem 30rem;
+}
+.divs1#div5{
+    background-image: url("dish5.jpg");
+    background-size: 40rem 30rem;
+}
+.divs1#div6{
+    background-image: url("dish6.jpg");
+    background-size: 40rem 30rem;
+}
+.Drinks{
+    padding-top: 20rem;
+}
+#heading3{
+    padding-top: 3rem;
+}
+.divs2#div1{
+    background-image: url("drink1.jpg");
+    background-size: 40rem 30rem;
+}
+.divs2#div2{
+    background-image: url("drink2.jpg");
+    background-size: 40rem 30rem;
+}
+.divs2#div3{
+    background-image: url("drink3.jpg");
+    background-size: 40rem 30rem;
+}
+.divs2#div4{
+    background-image: url("drink4.jpg");
+    background-size: 40rem 30rem;
+}
+.divs2#div5{
+    background-image: url("drink5.jpg");
+    background-size: 40rem 30rem;
+}
+.divs2#div6{
+    background-image: url("drink6.jpg");
+    background-size: 40rem 30rem;
+}
+.divs3#div1{
+    background-image: url("desser1.jpg");
+    background-size: 40rem 30rem;
+}
+.divs3#div2{
+    background-image: url("dessert2.jpg");
+    background-size: 40rem 30rem;
+}
+.divs3#div3{
+    background-image: url("dessert3.jpg");
+    background-size: 40rem 30rem;
+}
+.divs3#div4{
+    background-image: url("dessert4.jpg");
+    background-size: 40rem 30rem;
+}
+.divs3#div5{
+    background-image: url("dessert5.jpg");
+    background-size: 40rem 30rem;
+}
+.divs3#div6{
+    background-image: url("dessert6.jpg");
+    background-size: 40rem 30rem;
+}
+footer{
+    height: 10rem;
+    text-align: center;
+    font-size: medium;
+    margin-top: 1rem;
+}
+footer i{
+    color: #f44336;
+}
+@media screen and (max-width:321px){
+    .items1,.items2,.items3{
+        height: 220rem;
+    }
+    .Dishes,.Drinks,.Desserts{
+        display: grid;
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+                    "div1"
+                    "div2"
+                    "div3"
+                    "div4"
+                    "div5"
+                    "div6"
+    } 
+    html{
+        font-size: 48%;
+    }  
+}
+@media (min-width: 321px) and (max-width:768px){
+    .items1,.items2,.items3{
+        height: 120rem;
+    }
+    .Dishes,.Drinks,.Desserts{
+        display: grid;
+        grid-template-areas: 
+                    "div1 div2"
+                    "div3 div4"
+                    "div5 div6"
+    } 
+    html{
+        font-size: 52%;
+    }  
+}
+
+
+
